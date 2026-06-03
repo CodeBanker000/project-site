@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styles -->
+  <link href="./styles/reset.css" rel="stylesheet">
+  <link href="./styles/style.css" rel="stylesheet">
+  <title>Nome Progetto</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <a href="index.html" title="vai alla homepage">
+        <img src="./assets/images/avatar.png" class="header__logo-image" alt="avatar dell'autore">
+      </a>
+    </div>
+    <nav class="header__navbar">
+      <ul>
+        <li>
+          <a href="index.html" title="vai alla homepage" class="header__navbar-link">Home</a>
+        </li>
+        <li>
+          <a href="#search" title="vai alla sezione ricerca" class="header__navbar-link">Ricerca</a>
+        </li>
+        <li>
+          <a href="#functionality" title="" class="header__navbar-link">Funzionalit&agrave;</a>
+        </li>
+        <li>
+          <a href="./esercizio1.html" title="" class="header__navbar-link">Esercizio 1</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-content">
+    <h1>GIT interattivo</h1>
+    <p>Descrive i comandi git basilari per la gestione di un progetto.</p>
+    <section id="search" class="search">
+      <h2>Ricerca comando:</h2>
+      <form id="search-form">
+        <label for="search__input">Ricerca</label>
+        <input type="text" id="search__input">
+        <button type="submit">Cerca</button>
+      </form>
+    </section>
+    <section id="functionality">
+      <h2>Funzionalità</h2>
+      <table>
+        <thead class="main__table-header" align="left" >
+          <tr>
+            <th>Comando</th>
+            <th>Descrizione</th>
+          </tr>
+        </thead>
+        <tbody class="main__table-body">
+          <tr class="even">
+            <td>
+              <code>git status</code>
+            </td>
+            <td>
+              controlla lo stato dei file modificati
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>git add [percorso_file]</code>
+            </td>
+            <td>
+              aggiunge la cartella o il file allo stage
+            </td>
+          </tr>
+          <tr class="even">
+            <td>
+              <code>git commit -m "[messaggio]"</code>
+            </td>
+            <td>
+              fa il commit dei cambiamenti e attacca un messaggio
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>git push</code>
+            </td>
+            <td>
+              pusha i vari commit sul repository di github
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer class="footer">
+
+  </footer>
+</body>
+</html>
