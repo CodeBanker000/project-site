@@ -2,6 +2,7 @@
 
 :root {
     --color-primary: #465775;
+    --color-primary-dark: #232e43;
     --color-secondary: #56E39F;
     --color-accent: #EF6F6C;
     --color-accent-dark: #bd4644;
@@ -74,7 +75,29 @@ body {
 }
 
 .main-content section {
-    margin-block: 2em;
+    margin-block: 3em;
+}
+
+.search__input,
+.search__button {
+    padding: 0.7em;
+    border-radius: .5em;
+}
+
+.search__input {
+    margin-left: 1em;
+}
+
+.search__button {
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    color: var(--color-light);
+    padding-inline: 2em;
+    margin-left: 1em;
+}
+
+.search__button:hover {
+    opacity: .75;
 }
 
 table {

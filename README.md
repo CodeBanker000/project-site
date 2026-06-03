@@ -1,5 +1,7 @@
 # Project Site
 
+Descrizione del progetto
+
 ## Caratteristiche Principali
 
 Lista di caratteristiche del progetto
